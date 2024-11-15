@@ -13,11 +13,22 @@ html {
 	flex-direction: row;
 }
 
-.flex-container div{ 
-	margin-left: 10%;
-	margin-right: 10%;
-	
-}
+  .flex-container-header .header {
+    text-align: center;
+    margin: 0;
+  }
+  
+  
+
+  .flex-container-lower {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .imgs {
+    flex-direction: column;
+    gap: 15px; /* Add spacing between images */
+  }
 
 .flex-container button{
 	
@@ -32,7 +43,7 @@ html {
 .flex-container-header .header{
 
 height: 80px;
-margin-left: auto;
+margin-left: 0;
 flex: 1;  
 
 }
@@ -41,14 +52,15 @@ flex: 1;
 height: 80px;
 display: flex;
 flex-direction: row;   
-  margin-right: auto;
+margin-right: 0;
+flex: 1;
   
 }
 
 .flex-container-header .link{
 
 height: 80px;
-padding-right: 10%;
+padding-right: 10px;
 padding-top: 40px; 
 display: flex; 
 flex: 0.3;  
@@ -98,8 +110,8 @@ display: flex;
 
 .info-head {
 	
-	padding-bottom: 5%;
-	padding-top: 5%;
+	padding-bottom: 2%;
+	padding-top: 2%;
 	
 }
 
@@ -113,27 +125,28 @@ display: flex;
 .img {
 	
 flex: 1;
-padding: 5%;  
+padding: 2%;  
 	
 }
 
 .square {
-  height: 25%;
-  width: 25%; 
+  height: 50px;
+  width: 50px; 
   outline: 2px solid grey; 
   border-radius: 3px;
 }
 
 .caption {
 	
-	padding-top: 10px;	
+	padding-top: 20px;	
+	padding-bottom: 20px;
 	
 }
 
 .flex-container-lower {
 	display: flex; 
 	background-color: rgb(229, 231, 235);
-	height: 200px; 
+	height: 80px; 
 	width: 100%;
 	flex-direction: column; 
 	align-items: center; /* Centers content horizontally */
@@ -151,7 +164,7 @@ padding: 5%;
 .flex-container-lowest {
 	
 	display: flex; 
-	height: 200px; 
+	height: 150px; 
 	width: 100%;
 	flex-direction: row; 
 	align-items: center; 
@@ -199,10 +212,49 @@ footer div{
 	
 }
 
-@media screen and (max-width: 481px){ 
+@media screen and (max-width: 480px){ 
 
 
+.flex-container-header {
+	
+	display: flex; 
+	align-items: center;
+	justify-content: center;
+	flex: unset; 
+	
+}
 
+   .flex-container-header .header {
+    text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin-left: 30px;
+	flex: unset;  
+  }
+
+	.links {
+		
+		font-size: 10px;
+		content-visibility: hidden;
+	}
+
+  .flex-container-lowest {
+    text-align: center;
+	flex: 1; 
+    padding: 20px;
+  }
+
+  .flex-container-lower {
+    text-align: center;
+	flex: 1; 
+    padding: 20px;
+  }
+
+  .imgs {
+    flex-direction: column;
+	flex: 1; 
+    gap: 10px; /* Add spacing between images */
+  }
 
 
  }
