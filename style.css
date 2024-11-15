@@ -1,0 +1,198 @@
+html {
+	
+	font-family: Roboto; 
+	
+}
+
+
+.flex-container-header {
+  display: flex;
+  background-color: rgb(31,41,55);
+  	color: white;
+	flex-direction: row;
+}
+
+.flex-container div{ 
+	margin-left: 100px;
+	margin-right: 100px;
+	
+}
+
+.flex-container button{
+	
+	background-color:rgb(56, 130, 246);
+	border-width: 3px;
+	border-color: rgb(56, 130, 246);
+	color: white; 
+	
+	
+}
+
+.flex-container-header .header{
+
+height: 80px;
+margin-left: 100px;
+flex: 1;  
+
+}
+.flex-container-header .links{
+
+height: 80px;
+display: flex;
+flex-direction: row;   
+  margin-right: 100px;
+  
+}
+
+.flex-container-header .link{
+
+height: 80px;
+padding-right: 40px;
+padding-top: 40px; 
+display: flex; 
+flex: 0.3;  
+
+}
+
+
+
+.flex-container {
+  display: flex; 
+     background-color: rgb(31,41,55);
+	 	color: white;
+}
+
+
+.flex-container div{
+  margin-left: 200px;
+  margin-right: 200px; 
+  height: 300px;
+
+  flex: 1;
+}
+
+.one {
+
+display: flex;
+	
+}
+
+.one {
+
+
+  flex: 1;
+  flex-direction: column; 
+	
+}
+
+
+.flex-container-body {
+  display: flex;
+  background-color: white;
+	flex: 1;	
+	flex-direction: column;	
+	align-items: center;
+}
+
+.info-head {
+	
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+}
+
+.imgs {
+  display: flex;
+  background-color: white;	
+	flex-direction: row;
+		
+}
+
+.img {
+	
+flex: 1;
+padding: 20px;  
+	
+}
+
+.square {
+  height: 100px;
+  width: 100px; 
+  outline: 2px solid grey; 
+  border-radius: 3px;
+}
+
+.caption {
+	
+	padding-top: 10px;	
+	
+}
+
+.flex-container-lower {
+	display: flex; 
+	background-color: rgb(229, 231, 235);
+	height: 200px; 
+	width: 100%;
+	flex-direction: column; 
+	align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */ 	
+	
+}
+
+.quote {
+	
+	font-style: italic;  
+
+	
+}
+
+.flex-container-lowest {
+	
+	display: flex; 
+	height: 200px; 
+	width: 100%;
+	flex-direction: row; 
+	align-items: center; 
+    justify-content: center; 
+	
+}
+
+.text {
+	
+	padding-right: 60px;
+	
+}
+
+.call-to-action {
+	
+	display: flex; 
+	background-color: blue;
+	flex: 1.25;
+	max-width: 400px; /* Set a smaller maximum width */
+	width: 100%; 
+	flex-direction: row; 
+	align-items: center; 
+    justify-content: center; 
+	border-radius: 8px; 
+	
+}
+
+
+footer {
+	
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	flex-direction: row;
+	height: 80px;
+	background-color: rgb(229, 240, 235);	
+	
+}
+
+footer div{
+	
+	display: flex; 
+	padding-right: 30px;
+	flex-direction: row;
+	
+}
